@@ -82,8 +82,7 @@ sections:
       - title: |-
           “This book is inspiring and practical. It’s thought-provoking and full
           of examples which definitely motivates me”
-        subtitle: |-
-          Hilary Ouse, Sr. Marketing Manager at Company
+        subtitle: 'Hilary Ouse, Sr. Marketing Manager at Company'
         image: images/hilary-ouse.png
         image_alt: Brandon Guidelines
         media_position: left
@@ -102,10 +101,12 @@ sections:
 
           Discovery, research and pure intuition: How to slice and dice all the
           information you can gather about your customers.
-      - content: |-
+      - content: >-
           ### Performance Marketing
 
-          Know your PPC from your CPA and CTR — a quick start guide to performance marketing channels, setups, budgeting and creative.
+
+          Know your PPC from your CPA and CTR — a quick start guide to
+          performance marketing channels, setups, budgeting and creative.
       - content: |-
           ### The Truth About Branding
 
@@ -117,10 +118,13 @@ sections:
           What you should be writing about, where it should be published, who
           should read it, and what difference does it make. A comprehensive
           guide to content marketing.
-      - content: |-
+      - content: >-
           ### Social Media
 
-          Google, Facebook, TikTok, LinkedIn — what should you use, and how? And how do you know that it's actually working? Build a social media strategy like a pro.
+
+          Google, Facebook, TikTok, LinkedIn — what should you use, and how? And
+          how do you know that it's actually working? Build a social media
+          strategy like a pro.
       - content: |-
           ### Seeing What Works
 
@@ -197,7 +201,7 @@ sections:
   - type: features_section
     features:
       - title: What’s Inside
-        subtitle: Brandon Guidelines, Marketing Guru
+        subtitle: 'Brandon Guidelines, Marketing Guru'
         content: |-
           **Marketing in the real world** is very different than what we learn
           at school. If you've recently graduated and are making your first
@@ -237,30 +241,85 @@ sections:
     background_image_repeat: no-repeat
     background_image_size: cover
     background_image_opacity: 10
+  - section_id: lorem-ipsum
+    title: lorem-ipsum
+    subtitle: lorem-ipsum
+    title_align: left
+    content: >-
+      Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non
+      efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor
+      pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque
+      imperdiet venenatis.
+              
+      > Vestibulum ullamcorper risus auctor eleifend consequat.
+
+
+      ![Placeholder
+      Image](https://assets.stackbit.com/components/images/default/post-4.jpeg)
+
+
+      In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl
+      elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam
+      malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis.
+      Vestibulum quis elit magna. Vestibulum accumsan blandit consequat.
+      Phasellus quis posuere quam.
+
+
+      Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum
+      ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo
+      euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat
+      et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque
+      lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat
+      efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis
+      ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus
+      ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris,
+      viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus,
+      vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna
+      non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac
+      dui. Integer vel convallis justo.
+    content_align: left
+    form_position: bottom
+    form_width: fifty
+    form_layout: stacked
+    enable_card: false
+    form_id: lorem-ipsum
+    form_action: lorem-ipsum
+    form_fields: []
+    submit_label: lorem-ipsum
+    align_vert: top
+    padding_top: medium
+    padding_bottom: medium
+    has_border: false
+    background_color: none
+    background_image_opacity: 0
+    background_image_size: cover
+    background_image_position: center center
+    background_image_repeat: no-repeat
+    type: form_section
 seo:
   title: Stackbit Book Theme
   description: The preview of the Book theme
   extra:
-    - name: og:type
+    - name: 'og:type'
       value: website
       keyName: property
-    - name: og:title
+    - name: 'og:title'
       value: Stackbit Book Theme
       keyName: property
-    - name: og:description
+    - name: 'og:description'
       value: The preview of the Book theme
       keyName: property
-    - name: og:image
+    - name: 'og:image'
       value: images/book-preview.png
       keyName: property
       relativeUrl: true
-    - name: twitter:card
+    - name: 'twitter:card'
       value: summary_large_image
-    - name: twitter:title
+    - name: 'twitter:title'
       value: Stackbit Book Theme
-    - name: twitter:description
+    - name: 'twitter:description'
       value: The preview of the Book theme
-    - name: twitter:image
+    - name: 'twitter:image'
       value: images/book-preview.png
       relativeUrl: true
 layout: advanced
